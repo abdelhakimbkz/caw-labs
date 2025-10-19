@@ -1,0 +1,87 @@
+/* 1. Universal and Type Selectors */
+* {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #336699;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* 2. Class and ID Selectors */
+#special {
+    background-color: #fffacd;
+    padding: 10px;
+}
+
+.hello {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* 3. Descendant and Child Selectors */
+div.main-content > h2,
+div.ai-tools > h2 {
+    text-transform: uppercase;
+}
+
+div.ai-tools li {
+    list-style-type: square;
+}
+
+div.ai-tools ul {
+    padding-left: 20px;
+}
+
+/* 4. Attribute Selectors */
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+/* 5. Pseudo-classes and Pseudo-elements */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+/* The :focus pseudo-class is used to style an element when it receives focus, 
+   typically when a user clicks on or tabs to an element */
+input:focus {
+    border: 2px solid blue;
+}
+
+/* 6. Combining Selectors & Specificity Challenge */
+div.ai-tools li.hello {
+    font-style: italic;
+}
+
+footer h1 {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2em;
+}

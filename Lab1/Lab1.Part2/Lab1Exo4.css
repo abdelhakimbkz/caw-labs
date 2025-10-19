@@ -1,0 +1,71 @@
+/* Apply to the whole page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 50px;
+    background-color: #e8eae8;
+    color: #5d665b;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+    line-height: 180%;
+    
+    /* Beautiful background with gradient */
+    background: linear-gradient(135deg, #e8eae8 0%, #d4d8d4 50%, #c2c7c2 100%);
+    min-height: 100vh;
+}
+
+body {
+    margin: 70px 50px 70px 120px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    color: #ffffdd;
+    font-family: Georgia, serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: linear-gradient(135deg, #966b72 0%, #7a5561 100%);
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #966b72;
+    font-family: Georgia, serif;
+    margin: 25px 0 15px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0d6d8;
+}
+
+/* First h2 specific styling */
+h2:first-of-type {
+    font-size: 75%;
+    font-size: 1.5em; /* Adjusted for better readability */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* First paragraph specific styling */
+p:first-of-type {
+    font-size: 70%;
+    font-size: 1.1em; /* Adjusted for better readability */
+}
+
+/* Second paragraph specific styling */
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
