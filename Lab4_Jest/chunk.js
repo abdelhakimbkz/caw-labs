@@ -11,4 +11,4 @@ function chunk(array, size) {
 module.exports = chunk;
 
 console.log("chunk([1,2,3,4,5,6], 2):", chunk([1,2,3,4,5,6], 2));
-console.log("chunk(['c','h','u','n','k'], 3):", chunk(['c','h','u','n','k'], 3));
+console.log("chunk(['c','h','u','n','k'], 2):", chunk(['c','h','u','n','k'], 2));

@@ -8,7 +8,7 @@ test('first 2 elements of array', () => {
   expect(first([1, 2, 3], 2)).toEqual([1, 2]);
 });
 
-test('return empty array if n <= 0', () => {
+test('return empty array if n = 0', () => {
   expect(first([1, 2, 3], 0)).toEqual([]);
 });
 
