@@ -1,0 +1,93 @@
+/* GLOBAL STYLE */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f8;
+  color: #333;
+}
+
+/* MAIN CONTAINER */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+  color: #222;
+}
+
+/* EXERCISE SECTIONS */
+section {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 85%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+/* SECTION TITLES */
+section h2 {
+  margin-bottom: 15px;
+  color: #0d6efd;
+  border-left: 6px solid #0d6efd;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+/* BUTTONS */
+button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0b5ed7;
+}
+
+/* INPUT FIELDS */
+input {
+  padding: 6px 10px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #0d6efd;
+  outline: none;
+}
+
+/* LISTS */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+li:hover {
+  color: #0d6efd;
+}
+
+/* DYNAMIC DIV DISPLAY */
+.added-div-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
